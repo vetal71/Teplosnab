@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="4.12" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="39012,4377119329" ReportOptions.Description.Text="" ReportOptions.LastChange="41533,6967228819" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403E80003546F7003280108446174617365747301010C3A00000020446174615365743D222E466D654F7267616E697A6174696F6E2E4F62656B745365742220446174615365744E616D653D2244534F62656B74220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="5" RightMargin="5" TopMargin="5" BottomMargin="5" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="22,67718" Left="0" Top="18,89765" Width="755,906">
+      <TfrxMemoView Name="Memo2" Left="3,77953" Top="0" Width="748,34694" Height="18,89765" ShowHint="False" Color="13434879" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Вывоз мусора по потребителям за [Date #dmmmm yyyy] г."/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="18,89765" Left="0" Top="204,09462" Width="755,906" ColumnWidth="0" ColumnGap="0" DataSet=".FmeOrganization.ObektSet" DataSetName="DSObekt" RowCount="0">
+      <TfrxMemoView Name="Memo12" Left="3,77953" Top="0" Width="313,70099" Height="18,89765" ShowHint="False" DataField="nazv_1" DataSet=".FmeOrganization.ObektSet" DataSetName="DSObekt" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[DSObekt.&#34;nazv_1&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="317,48052" Top="0" Width="151,1812" Height="18,89765" ShowHint="False" DataSet=".FmeOrganization.ObektSet" DataSetName="DSObekt" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo7" Left="468,66172" Top="0" Width="211,65368" Height="18,89765" ShowHint="False" DataSet=".FmeOrganization.ObektSet" DataSetName="DSObekt" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" ParentFont="False" Text=""/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="283,46475" Width="755,906">
+      <TfrxMemoView Name="Memo1" Left="510,29576264" Top="0" Width="241,88992" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="1" HAlign="haRight" ParentFont="False" Text="Страница [Page#] из [TotalPages#]"/>
+    </TfrxPageFooter>
+    <TfrxGroupHeader Name="GroupHeader1" Height="79,37013" Left="0" Top="102,04731" Width="755,906" Condition="DSObekt.&#34;kodorg&#34;" ReprintOnNewPage="True">
+      <TfrxMemoView Name="Memo5" Left="3,77953" Top="34,01577" Width="313,70099" Height="45,35436" ShowHint="False" Color="16777180" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Наименование объекта"/>
+      <TfrxMemoView Name="Memo9" Left="317,48052" Top="34,01577" Width="151,1812" Height="45,35436" ShowHint="False" Color="16777180" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Количество мусора, куб.м"/>
+      <TfrxMemoView Name="Memo3" Left="3,77953" Top="3,77952999999999" Width="748,34694" Height="26,45671" ShowHint="False" Color="15790320" Text=""/>
+      <TfrxMemoView Name="Memo4" Left="7,55906" Top="7,55906" Width="71,81107" Height="18,89765" ShowHint="False" DataField="kodorg" DataSet=".FmeOrganization.ObektSet" DataSetName="DSObekt" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="1" ParentFont="False" Text="[DSObekt.&#34;kodorg&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="120,94496" Top="7,55906" Width="623,62245" Height="18,89765" ShowHint="False" DataField="nazv" DataSet=".FmeOrganization.ObektSet" DataSetName="DSObekt" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="1" ParentFont="False" Text="[DSObekt.&#34;nazv&#34;]"/>
+      <TfrxMemoView Name="Memo6" Left="468,66172" Top="34,01577" Width="211,65368" Height="45,35436" ShowHint="False" Color="16777180" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="Примечание"/>
+    </TfrxGroupHeader>
+  </TfrxReportPage>
+</TfrxReport>

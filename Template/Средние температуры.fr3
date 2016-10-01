@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="39035,6219079977" ReportOptions.Description.Text="" ReportOptions.LastChange="39079,4869111343" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403180103546F7003000108446174617365747301010C2F00000020446174615365743D22506172616D4F72675365742220446174615365744E616D653D224453506172616D4F72672200010C2700000020446174615365743D2254656D705365742220446174615365744E616D653D22445354656D70220000095661726961626C65730100055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Height="56,69295" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo2" Left="377,953" Top="3,77953" Width="332,59864" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="0" Memo.Text="[&#60;DSParamOrg.&#34;dolgn_chif&#34;&#62;]у [&#60;DSParamOrg.&#34;nazvorg&#34;&#62;]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo3" Left="377,953" Top="30,23624" Width="332,59864" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="0" Memo.Text="[&#60;DSParamOrg.&#34;fio_chif&#34;&#62;]" ParentFont="False"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" Height="26,45671" Left="0" Top="260,78757" Width="718,1107" Columns="2" ColumnWidth="321,259842519685" ColumnGap="18,8976377952756" DataSet="TempSet" DataSetName="DSTemp" RowCount="0">
+      <TfrxMemoView Name="Memo5" Left="7,55906" Top="3,77953000000002" Width="257,00804" Height="18,89765" DataSet="TempSet" DataSetName="DSTemp" Memo.Text="[&#60;DSTemp.&#34;data&#34;&#62;] - [&#60;DSTemp.&#34;srt&#34;&#62;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" Height="22,67718" Left="0" Top="347,71676" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="642,57931264" Top="0" Width="75,5906" Height="18,89765" HAlign="haRight" Memo.Text="[Date]"/>
+    </TfrxPageFooter>
+    <TfrxHeader Name="Header1" Height="102,04731" Left="0" Top="136,06308" Width="718,1107">
+      <TfrxMemoView Name="Memo4" Left="7,55906" Top="56,69295" Width="702,99258" Height="37,7953" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="0" Memo.Text="         Горецкая межрегиональная метеостанция сообщает, что за период [data1]&#13;&#10;по Горецкому району сложились следующие среднесуточные температуры:" ParentFont="False"/>
+      <TfrxMemoView Name="Memo6" Left="7,55906" Top="3,77952999999999" Width="706,77211" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="1" HAlign="haCenter" Memo.Text="СПРАВКА" ParentFont="False"/>
+    </TfrxHeader>
+  </TfrxReportPage>
+</TfrxReport>

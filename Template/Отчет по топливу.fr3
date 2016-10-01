@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Name="" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="2047" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" ReportOptions.CreateDate="39062.3882815972" ReportOptions.Description.Text="" ReportOptions.LastChange="39087.5188196181" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403E80003546F7003280108446174617365747301010C2200000020446174615365743D224B6F742220446174615365744E616D653D2264734B6F74220000095661726961626C657301010C0B000000204E616D653D22204D792200010C0D000000204E616D653D2244617461312200010C0D000000204E616D653D224461746132220000055374796C650100">
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="0" Height="71.81107" Left="0" ParentFont="False" Top="18.89765" Width="718.1107">
+      <TfrxMemoView Name="Memo2" Left="0" Top="0" Width="718.1107" Height="22.67718" Color="13434879" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="1" HAlign="haCenter" Memo.Text="Отчет по топливу по участку [dsKot.&#34;nazk&#34;] за [period]" ParentFont="False"/>
+      <TfrxMemoView Name="Memo27" Left="3.77953" Top="45.35436" Width="714.33117" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="1" Memo.Text="Отчет составлен: [Date #ddd mmmm yyyy]" ParentFont="False"/>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="PageFooter1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Tahoma" Font.Style="0" Height="22.67718" Left="0" ParentFont="False" Top="347.71676" Width="718.1107">
+      <TfrxMemoView Name="Memo1" Left="3.83874264" Top="0" Width="714.33117" Height="18.89765" HAlign="haRight" Memo.Text="Страница [Page#] из [TotalPages#]"/>
+    </TfrxPageFooter>
+    <TfrxMasterData Name="MasterData1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Height="18.89765" Left="0" ParentFont="False" Top="226.7718" Width="718.1107" ColumnWidth="0" ColumnGap="0" DataSet="Kot" DataSetName="dsKot" RowCount="0">
+      <TfrxMemoView Name="Memo12" Left="3.77953" Top="0" Width="147.40167" Height="18.89765" DataField="naztop" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;naztop&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="151.1812" Top="0" Width="71.81107" Height="18.89765" DataField="r_ot" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;r_ot&#34;]"/>
+      <TfrxMemoView Name="Memo14" Left="222.99227" Top="0" Width="71.81107" Height="18.89765" DataField="r_gv" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;r_gv&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="294.80334" Top="0" Width="60.47248" Height="18.89765" DataField="ps" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;ps&#34;]"/>
+      <TfrxMemoView Name="Memo16" Left="355.27582" Top="0" Width="71.81107" Height="18.89765" DataField="v_tep" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;v_tep&#34;]"/>
+      <TfrxMemoView Name="Memo17" Left="427.08689" Top="0" Width="68.03154" Height="18.89765" DataField="k_per" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;k_per&#34;]"/>
+      <TfrxMemoView Name="Memo18" Left="495.11843" Top="0" Width="64.25201" Height="18.89765" DataField="n_top" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;n_top&#34;]"/>
+      <TfrxMemoView Name="Memo19" Left="559.37044" Top="0" Width="64.25201" Height="18.89765" DataField="kol_t" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;kol_t&#34;]"/>
+      <TfrxMemoView Name="Memo20" Left="623.62245" Top="0" Width="75.5906" Height="18.89765" DataField="kol_n" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[dsKot.&#34;kol_n&#34;]"/>
+    </TfrxMasterData>
+    <TfrxHeader Name="Header1" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Tahoma" Font.Style="0" Height="52.91342" Left="0" ParentFont="False" Top="151.1812" Width="718.1107">
+      <TfrxMemoView Name="Memo3" Left="3.77953" Top="3.77952999999999" Width="147.40167" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Вид топлива" ParentFont="False"/>
+      <TfrxMemoView Name="Memo4" Left="151.1812" Top="3.77952999999999" Width="71.81107" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Реализация, отопление (Гкал)" ParentFont="False"/>
+      <TfrxMemoView Name="Memo5" Left="222.99227" Top="3.77952999999999" Width="71.81107" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Реализация, ГВС (Гкал)" ParentFont="False"/>
+      <TfrxMemoView Name="Memo6" Left="294.80334" Top="3.77952999999999" Width="60.47248" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Потери (Гкал)" ParentFont="False"/>
+      <TfrxMemoView Name="Memo7" Left="355.27582" Top="3.77952999999999" Width="71.81107" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Выработано (Гкал)" ParentFont="False"/>
+      <TfrxMemoView Name="Memo8" Left="427.08689" Top="3.77952999999999" Width="68.03154" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Коэф. перевода в т.у.т" ParentFont="False"/>
+      <TfrxMemoView Name="Memo9" Left="495.11843" Top="3.77952999999999" Width="64.25201" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Норма расхода на 1 Гкал" ParentFont="False"/>
+      <TfrxMemoView Name="Memo10" Left="559.37044" Top="3.77952999999999" Width="64.25201" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Расход топлива, т.у.т" ParentFont="False"/>
+      <TfrxMemoView Name="Memo11" Left="623.62245" Top="3.77952999999999" Width="75.5906" Height="49.13389" Color="10027007" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Frame.Typ="15" HAlign="haCenter" Memo.Text="Расход топлива, тонн (куб.м.)" ParentFont="False"/>
+    </TfrxHeader>
+    <TfrxFooter Name="Footer1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Tahoma" Font.Style="0" Height="18.89765" Left="0" ParentFont="False" Top="268.34663" Width="718.1107">
+      <TfrxMemoView Name="Memo21" Left="3.77953" Top="0" Width="147.40167" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="ИТОГО:"/>
+      <TfrxMemoView Name="Memo22" Left="151.1812" Top="0" Width="71.81107" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[sum(&#60;dsKot.&#34;r_ot&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo23" Left="222.99227" Top="0" Width="71.81107" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[sum(&#60;dsKot.&#34;r_gv&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo24" Left="294.80334" Top="0" Width="60.47248" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[sum(&#60;dsKot.&#34;ps&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo25" Left="355.27582" Top="0" Width="71.81107" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[sum(&#60;dsKot.&#34;v_tep&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo26" Left="559.37044" Top="0" Width="64.25201" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" Memo.Text="[sum(&#60;dsKot.&#34;kol_t&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo28" Left="427.08689" Top="0" Width="68.03154" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" HAlign="haCenter" Memo.Text="x"/>
+      <TfrxMemoView Name="Memo29" Left="495.11843" Top="0" Width="64.25201" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" HAlign="haCenter" Memo.Text="x"/>
+      <TfrxMemoView Name="Memo30" Left="623.62245" Top="0" Width="75.5906" Height="18.89765" DataSet="Kot" DataSetName="dsKot" Frame.Typ="15" HAlign="haCenter" Memo.Text="x"/>
+    </TfrxFooter>
+  </TfrxReportPage>
+</TfrxReport>
